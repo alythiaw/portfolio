@@ -480,8 +480,8 @@ strong {
   background-color: #007a99;
   position: relative;
   overflow: hidden;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 0;
+  padding-bottom: 800px;
 }
 
 @media  screen and (min-width: 1000px) {
@@ -518,7 +518,7 @@ strong {
   border-radius: var(--border-radius-small);
   letter-spacing: -1px;
   position: relative;
-
+  bottom: -200px;
 }
 
 .hero h2 {
@@ -533,7 +533,7 @@ strong {
   display: inline-block;
   letter-spacing: -1px;
   position: relative;
-  bottom: -10px;
+  bottom: -200px;
   right: 300px;
   left: 150px;
 
@@ -548,7 +548,7 @@ strong {
   border-radius: var(--border-radius-small);
   letter-spacing: -1px;
   position: relative;
-  bottom: -50px;
+  bottom: -280px;
   width: 50%; 
   right: 0;
   left: 380px;
@@ -1060,7 +1060,7 @@ strong {
 	}
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1499px) {
   h1 {
     font-size: 48px;
   }
@@ -1190,7 +1190,7 @@ strong {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1499px) {
   .navbar .container {
     margin-right: 12px;
     margin-left: 12px;
@@ -1230,25 +1230,29 @@ strong {
     height: 35.5px;
     line-height: 35.5px;
   }
-
-  .hero h1 {
+ .hero h1 {
     font-size: 24px;
+    letter-spacing: 1px;
     width: 90%;
-    left: 50px;
-    bottom: 600px;
-  }
-  .hero-text h2 {
-    font-size: 24px;
-    width: 80%;
+    display: inline-block;
+    color: var(--white-color);
+    bottom: 650px;
     left: 40px;
-    bottom: -120px;
+  }
+
+  .hero-text h2 {
+    width: 90%;
+    font-size: 18px;
+    right: -150px;
+    left: 30px;
+    bottom: -50px;
 
   }
 
   .hero a.custom-btn {
     width: 80%;
-    bottom: -150px;
-    left: 40px;
+    bottom: -70px;
+    left: 60px;
 
   }
 
